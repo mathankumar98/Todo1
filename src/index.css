@@ -1,0 +1,80 @@
+/* Fully Body content alignment */
+body{
+  background-color: rgba(81, 255, 0, 0.696);
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Heading Alingment Function */
+h1{
+  color: white;
+  text-align: center ;
+  font-size: 4.5rem;
+}
+
+/* full content alignment */
+.list-of-tasks-todo{
+  padding: 10px;
+  width: 400px;
+}
+
+/* Output Content storing box */
+.task-status{
+  background: white;
+  padding: 3px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: black;
+  font-size: 1.0rem;
+  margin-bottom: 6px;
+}
+
+/* Content Mouse */
+.task-name{
+  cursor: pointer;
+}
+
+/* Content Underline css */
+.completed-task{
+  text-decoration: line-through;
+}
+
+/* //delete Button */
+button{
+  border: 0;
+  cursor: pointer;
+  outline: 0;
+  font-size: 18px;
+}
+/* 
+Delete Button */
+.task-status button{
+  background-color: rgb(196, 195, 195);
+}
+
+/* //form Input Box */
+input{
+  padding: 7px 10px;
+  flex: 1;
+  outline: 0;
+  border: 0;
+  font-size: 1rem;
+  background: rgb(255, 255, 255);
+}
+form{
+  display: flex;
+  padding: 10px;
+}
+
+/* //Adding Button */
+form button{
+  color: black;
+  background: white;
+  outline: 0;
+  padding: 0 15px;
+}
